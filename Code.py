@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import json
 
-RAPIDAPI_KEY = ${key}
+RAPIDAPI_KEY = ${{ secret.key }}
 
 # Language-specific Hello World code snippets
 hello_world_examples = {
