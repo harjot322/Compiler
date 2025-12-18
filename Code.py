@@ -2,8 +2,7 @@ import streamlit as st
 import requests
 import json
 
-# RapidAPI credentials (replace with your actual RapidAPI key)
-RAPIDAPI_KEY = "5655e1925cmsh3b43150048e8c3dp1b0b56jsne55049150f2d"  # Replace with your actual RapidAPI key
+RAPIDAPI_KEY = ${key}
 
 # Language-specific Hello World code snippets
 hello_world_examples = {
